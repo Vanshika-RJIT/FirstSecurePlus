@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="40dp"
-    android:background="#57BCED"
+    android:background="#8E24AA"
     tools:context=".Register">
 
     <EditText
