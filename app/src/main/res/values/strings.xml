@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">First Secure Plus</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="sign_up_sign_in">Sign Up/Sign In</string>
+    <string name="todo">todo</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="username">UserName</string>
+    <string name="Phone_number">Phone Number</string>
+</resources>
