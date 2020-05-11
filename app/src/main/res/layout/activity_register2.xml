@@ -16,6 +16,7 @@
         android:background="@drawable/bg1"
         android:ems="10"
         android:layout_margin="28dp"
+        android:textColorHint="#A61ACC"
         android:inputType="textEmailAddress"
         android:hint="@string/email"
         android:drawableLeft="@drawable/ic_email_black_24dp"
