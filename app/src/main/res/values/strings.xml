@@ -13,4 +13,5 @@
     <string name="username">UserName</string>
     <string name="Phone_number">Phone Number</string>
     <string name="confirm">Confirm</string>
+    <string name="mobile_number_verification">Mobile Number Verification</string>
 </resources>
