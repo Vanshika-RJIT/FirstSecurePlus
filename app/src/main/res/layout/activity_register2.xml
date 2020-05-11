@@ -15,7 +15,7 @@
         android:layout_height="54dp"
         android:background="@drawable/bg1"
         android:ems="10"
-        android:layout_margin="28dp"
+        android:layout_margin="20dp"
         android:textColorHint="#A61ACC"
         android:inputType="textEmailAddress"
         android:hint="@string/email"
@@ -28,7 +28,7 @@
         android:id="@+id/editText6"
         android:layout_width="268dp"
         android:layout_height="54dp"
-        android:layout_margin="28dp"
+        android:layout_margin="20dp"
         android:background="@drawable/bg1"
         android:ems="10"
         android:hint="@string/Phone_number"
@@ -41,9 +41,9 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="259dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="28dp"
+        android:layout_width="256dp"
+        android:layout_height="207dp"
+        android:layout_margin="20dp"
         android:contentDescription="TODO"
         app:srcCompat="@drawable/idproof" />
 
