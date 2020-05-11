@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="28dp"
-    android:background="#21DDF4"
+    android:background="#4BD151"
     tools:context=".Register">
 
     <ImageView
