@@ -20,7 +20,8 @@
         android:hint="@string/email"
         android:drawableLeft="@drawable/ic_email_black_24dp"
         android:drawablePadding="23dp"
-         />
+        android:importantForAutofill="no"
+        android:drawableStart="@drawable/ic_email_black_24dp" />
 
     <EditText
         android:id="@+id/editText6"
@@ -33,5 +34,22 @@
         android:inputType="phone"
         android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
         android:drawablePadding="23dp"
-        android:textColorHint="#A61ACC" />
+        android:textColorHint="#A61ACC"
+        android:drawableStart="@drawable/ic_contact_phone_black_24dp"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:layout_marginTop="234dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="cursive"
+        android:textAlignment="gravity"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:text="@string/confirm" tools:targetApi="jelly_bean"
+        android:layout_marginStart="100dp" />
 </LinearLayout>
