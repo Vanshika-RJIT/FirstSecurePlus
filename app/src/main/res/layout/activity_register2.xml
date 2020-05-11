@@ -41,7 +41,7 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="266dp"
+        android:layout_width="259dp"
         android:layout_height="wrap_content"
         android:layout_margin="28dp"
         android:contentDescription="TODO"
@@ -49,8 +49,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="44dp"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
         android:text="@string/submit_any_id_proof_if_you_want_but_it_is_optional_and_if_you_submit_it_it_will_be_better_for_your_security"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorPrimaryDark"

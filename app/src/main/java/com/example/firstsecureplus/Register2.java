@@ -13,7 +13,7 @@ import android.widget.ImageView;
 public class Register2 extends AppCompatActivity {
     Button b1;
     ImageView t1;
-    Button t2;
+    Button b2;
     private static int Camera_Request = 1888;
 
     @Override
@@ -21,8 +21,9 @@ public class Register2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register2);
         b1 = (Button) findViewById(R.id.button5);
-        ImageView t1 = (ImageView) this.findViewById(R.id.imageView3);
-        Button t2 = (Button) this.findViewById(R.id.button);
+        t1 = (ImageView) findViewById(R.id.imageView3);
+        b2 = (Button) findViewById(R.id.button);
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,7 +31,7 @@ public class Register2 extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        t2.setOnClickListener(new View.OnClickListener() {
+        b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
@@ -41,8 +42,9 @@ public class Register2 extends AppCompatActivity {
 
     }
 
-    @SuppressLint("MissingSuperCall")
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == Camera_Request && resultCode == RESULT_OK) {
             Bitmap photo = (Bitmap) data.getExtras().get("data");
             t1.setImageBitmap(photo);
