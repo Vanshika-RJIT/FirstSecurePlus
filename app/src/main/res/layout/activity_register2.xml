@@ -51,6 +51,7 @@
         android:layout_gravity="center_vertical"
         android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:text="@string/confirm" tools:targetApi="jelly_bean"
+        android:text="@string/confirm"
+        tools:targetApi="jelly_bean"
         android:layout_marginStart="100dp" />
 </LinearLayout>

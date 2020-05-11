@@ -7,8 +7,6 @@
         android:type="linear"
         android:gradientRadius="100dp"
         />
-    <corners
-        android:radius="23dp"/>
 <size
     android:width="23dp"
     />

@@ -54,11 +54,11 @@
         android:layout_margin="28dp"
         android:inputType="textPassword"
         android:hint="@string/password"
-        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawableLeft="@drawable/ic1_lock_black_24dp"
         android:drawablePadding="23dp"
         android:textColorHint="#A61ACC"
         android:importantForAutofill="no"
-        android:drawableStart="@drawable/ic_lock_black_24dp" />
+        android:drawableStart="@drawable/ic1_lock_black_24dp" />
 
     <EditText
         android:id="@+id/editText4"
@@ -70,10 +70,10 @@
         android:inputType="textPassword"
         android:hint="@string/confirm_password"
         android:textColorHint="#A61ACC"
-        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawableLeft="@drawable/ic1_lock_black_24dp"
         android:drawablePadding="23dp"
         android:importantForAutofill="no"
-        android:drawableStart="@drawable/ic_lock_black_24dp" />
+        android:drawableStart="@drawable/ic1_lock_black_24dp" />
 
 
     <LinearLayout
