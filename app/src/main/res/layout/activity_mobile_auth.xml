@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="23dp"
-    android:background="#C274D6"
+    android:background="#21DDF4"
     tools:context=".MobileAuth">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="334dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_marginStart="23dp"
         android:layout_marginLeft="23dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/mobile_number_verification"
-        android:textColor="#3AD5E8"
-        android:textSize="25sp"
+        android:textColor="#7A4CD6"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:layout_marginStart="23dp" tools:targetApi="jelly_bean"/>
+        tools:targetApi="jelly_bean" />
 </RelativeLayout>
