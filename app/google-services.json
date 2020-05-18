@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "704006231644",
+    "firebase_url": "https://first--plus.firebaseio.com",
+    "project_id": "first--plus",
+    "storage_bucket": "first--plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704006231644:android:d565798cc270b91de73899",
+        "android_client_info": {
+          "package_name": "com.example.firstsecureplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704006231644-t5f4nqk4u0bsu4kgbbcroksdjc4iuo0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6yk7M-owehtAkJcf1V4HMDBjAv_P2m3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704006231644-t5f4nqk4u0bsu4kgbbcroksdjc4iuo0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
