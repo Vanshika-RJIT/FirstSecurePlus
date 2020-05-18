@@ -38,7 +38,7 @@ public class MobileAuth extends AppCompatActivity {
         b2 = findViewById(R.id.button7);
     }
 
-    private void sendverificationcode(View view) {
+    private void Send(View view) {
         String phone = t1.getText().toString();
         if (phone.isEmpty()) {
             t1.setError("Mobile number is required");
@@ -79,7 +79,7 @@ public class MobileAuth extends AppCompatActivity {
     };
 
 
-    private void Verifysubmitcode(View view) {
+    private void Verify(View view) {
         String code = t2.getText().toString();
         PhoneAuthCredential credential = PhoneAuthProvider.getCredential(Codesent, code);
         signInWithPhoneAuthCredential(credential);
