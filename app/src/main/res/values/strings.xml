@@ -26,4 +26,14 @@
     <string name="get_verification_code">Get Verification Code</string>
     <string name="enter_otp_code">Enter OTP code</string>
     <string name="Submit">Submit</string>
+    <string name="todo1">TODO</string>
+    <string name="give_answers_of_security_questions_this_will_help_you_at_the_time_of_cancelling_help_request">Give answers of Security Questions.This will help you at the time of cancelling help request</string>
+    <string name="_1_enter_your_favourite_book_novel">1) Enter Your Favourite Book/Novel ?</string>
+    <string name="_2_enter_your_favourite_cartoon_character">2) Enter Your Favourite Cartoon Character ?</string>
+    <string name="_3_enter_your_favourite_place">3) Enter Your Favourite City ?</string>
+    <string name="cartoon_character_like_doraemon">Cartoon-Character like Doraemon</string>
+    <string name="book_novel_like_a_suitable_boy">Book/Novel like A Suitable Boy</string>
+    <string name="city_like_jaipur_or_banglore">City like Jaipur or Banglore</string>
+    <string name="you_can_change_add_and_remove_your_security_questions_after_successful_registration">You can change,add and remove your Security Questions after Successful Registration</string>
+    <string name="confirm1">Confirm</string>
 </resources>

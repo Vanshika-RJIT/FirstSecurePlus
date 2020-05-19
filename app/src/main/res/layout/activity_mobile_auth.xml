@@ -9,26 +9,26 @@
     android:orientation="vertical"
     tools:context=".MobileAuth">
 
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="53dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginLeft="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="25dp"
         android:text="@string/mobile_number_verification"
         android:textColor="#ffff"
-        android:textSize="26sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         tools:targetApi="jelly_bean" />
-
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="349dp"
         android:layout_height="187dp"
         android:layout_marginTop="25dp"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/todo1"
         app:srcCompat="@drawable/mobile_auth1" />
 
     <EditText

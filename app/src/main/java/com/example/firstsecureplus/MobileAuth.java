@@ -3,6 +3,7 @@ package com.example.firstsecureplus;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -90,20 +91,21 @@ public class MobileAuth extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(MobileAuth.this,"Submitted  Verification Code Successfully",Toast.LENGTH_SHORT).show();
-
+                            Toast.makeText(MobileAuth.this, "Submitted  Verification Code Successfully", Toast.LENGTH_SHORT).show();
+                            Intent i = new Intent(getApplicationContext(),SecurityQuestions.class);
+                            startActivity(i);
 
                         } else {
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
-                                Toast.makeText(MobileAuth.this,"Submitted Incorrect Verification Code",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MobileAuth.this, "Submitted Incorrect Verification Code", Toast.LENGTH_SHORT).show();
 
                             }
 
                         }
                     }
+
                 });
     }
 
 }
-
 

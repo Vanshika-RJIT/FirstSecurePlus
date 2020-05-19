@@ -30,7 +30,7 @@ public class Login extends AppCompatActivity {
         String checkbox = preferences.getString("remember","");
         if(checkbox.equals("true"))
         {
-            Intent i =new Intent(Login.this,DashBoard.class);
+            Intent i =new Intent(Login.this,SecurityQuestions.class);
             startActivity(i);
         }else  if(checkbox.equals("false"))
         {
@@ -60,5 +60,5 @@ public class Login extends AppCompatActivity {
     }
 
     public void press(View view) {
-        Intent i = new Intent(Login.this, DashBoard.class);
+        Intent i = new Intent(Login.this, SecurityQuestions.class);
         startActivity(i);}}
